@@ -22,7 +22,20 @@ This project implements and analyzes the **Stable Marriage Algorithm** (also kno
 ---
 
 ## **Project Structure**
-/mariage_stable ├── main.py # Main script to run the project ├── algorithms/ # Core algorithms and utilities │ ├── init.py # Package initialization │ ├── stable_matching.py # Stable marriage algorithm and its variants │ ├── satisfaction.py # Satisfaction calculation functions │ ├── preferences.py # Functions to generate/load preferences ├── data/ # Example data for testing │ ├── preferences.json # Sample preferences for candidates and establishments ├── tests/ # Unit tests for the project │ ├── test_algorithms.py # Tests for stable matching algorithms │ ├── test_satisfaction.py # Tests for satisfaction calculations ├── requirements.txt # Project dependencies └── README.md # Project documentation
+/mariage_stable
+├── main.py # Main script to run the project
+├── algorithms/ # Core algorithms and utilities 
+  ├── init.py # Package initialization │
+  ├── stable_matching.py # Stable marriage algorithm and its variants │
+  ├── satisfaction.py # Satisfaction calculation functions │
+  ├── preferences.py # Functions to generate/load preferences 
+├── data/ # Example data for testing │
+  ├── preferences.json # Sample preferences for candidates and establishments 
+├── tests/ # Unit tests for the project 
+  ├── test_algorithms.py # Tests for stable matching algorithms │
+  ├── test_satisfaction.py # Tests for satisfaction calculations │
+├── requirements.txt # Project dependencies 
+└── README.md # Project documentation
 
 ---
 
